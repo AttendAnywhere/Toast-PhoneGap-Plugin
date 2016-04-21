@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-x-toast.Toast", function(require, exports, module) { function Toast() {
+function Toast() {
 }
 
   Toast.prototype.optionsBuilder = function () {
@@ -104,4 +104,3 @@ cordova.define("cordova-plugin-x-toast.Toast", function(require, exports, module
   };
 
   cordova.addConstructor(Toast.install);
-});
